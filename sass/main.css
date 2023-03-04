@@ -1,0 +1,496 @@
+.boost .info button, .shorter-link .form-link form button, header div > button, nav.container .reduies button {
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+  border-radius: 50px !important;
+}
+
+.boost .info button, .shorter-link .form-link form button, header div > button, nav.container .reduies button:last-child {
+  background-color: hsl(180deg, 63%, 50%) !important;
+  color: white !important;
+}
+
+.color {
+  color: hsl(0deg, 0%, 75%);
+  color: hsl(257deg, 7%, 63%);
+  color: hsl(255deg, 11%, 22%);
+  color: hsl(260deg, 8%, 14%);
+  color: hsl(180deg, 66%, 49%);
+  color: hsl(0deg, 87%, 67%);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+nav.container .nav-color {
+  color: hsl(257deg, 27%, 26%) !important;
+}
+@media (max-width: 767px) {
+  nav.container .bg-color {
+    background-color: hsl(257deg, 27%, 26%) !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  nav.container .bg-color {
+    background-color: hsl(257deg, 27%, 26%) !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+  }
+}
+nav.container ul.change-color li a {
+  color: hsl(0deg, 0%, 75%) !important;
+}
+nav.container ul.change-color li a:hover {
+  color: hsl(260deg, 8%, 14%) !important;
+}
+@media (max-width: 767px) {
+  nav.container ul.change-color li a {
+    font-weight: bold;
+  }
+  nav.container ul.change-color li a:hover {
+    color: white !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  nav.container ul.change-color li a {
+    color: hsl(0deg, 0%, 75%) !important;
+    font-weight: bold;
+  }
+  nav.container ul.change-color li a:hover {
+    color: white !important;
+  }
+}
+@media (max-width: 767px) {
+  nav.container ul.change-color li {
+    margin-left: 0 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+@media (max-width: 767px) {
+  nav.container ul.change-color {
+    margin-left: 0 !important;
+  }
+}
+nav.container .reduies button:first-child {
+  background-color: white !important;
+  color: hsl(255deg, 11%, 22%) !important;
+}
+nav.container .reduies button:first-child:hover {
+  background-color: hsl(257deg, 27%, 26%) !important;
+  color: white !important;
+}
+nav.container .reduies button:last-child:hover {
+  opacity: 0.75;
+}
+@media (max-width: 767px) {
+  nav.container .reduies button {
+    border: none;
+    color: hsl(0deg, 0%, 75%) !important;
+    font-weight: bold;
+  }
+  nav.container .reduies button:first-child {
+    background-color: transparent !important;
+    color: hsl(0deg, 0%, 75%) !important;
+  }
+  nav.container .reduies button:first-child:hover {
+    background-color: white !important;
+    color: hsl(257deg, 27%, 26%) !important;
+  }
+  nav.container .reduies button:last-child:hover {
+    opacity: 1;
+    background-color: hsl(180deg, 50%, 73%) !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  nav.container .reduies button {
+    color: hsl(0deg, 0%, 75%) !important;
+    font-weight: bold;
+    border: none;
+  }
+  nav.container .reduies button:first-child {
+    background-color: hsl(257deg, 27%, 26%) !important;
+    color: hsl(0deg, 0%, 75%) !important;
+  }
+  nav.container .reduies button:first-child:hover {
+    background-color: white !important;
+    color: hsl(257deg, 27%, 26%) !important;
+  }
+  nav.container .reduies button:last-child {
+    opacity: 0.75;
+  }
+  nav.container .reduies button:last-child:hover {
+    opacity: 1;
+  }
+}
+@media (max-width: 767px) {
+  nav.container .reduies {
+    border-top: 1px solid white;
+    margin: 0 30px;
+    padding-top: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  nav.container .reduies {
+    margin-left: 1.5rem;
+  }
+}
+
+header div > h1 {
+  font-size: 6rem;
+  color: hsl(257deg, 27%, 26%) !important;
+}
+header div > p {
+  font-size: 24px;
+  width: 80%;
+  color: hsl(257deg, 7%, 63%) !important;
+}
+header div > button:hover {
+  opacity: 0.75;
+}
+header .row > div:last-child img {
+  max-width: 140%;
+  position: absolute;
+  right: -54%;
+  top: 10px;
+}
+@media (max-width: 767px) {
+  header .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  header .row > div {
+    width: 100%;
+    text-align: center;
+  }
+  header div > h1 {
+    font-size: 3rem;
+  }
+  header div > p {
+    font-size: 15px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  header > .row > div:last-child img {
+    position: relative;
+    top: 20px;
+    right: -20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  header div > h1 {
+    font-size: 3rem;
+  }
+  header div > p {
+    font-size: 15px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  header div > h1 {
+    font-size: 4rem;
+  }
+  header div > p {
+    font-size: 20px;
+  }
+}
+
+.shorter-link .content img {
+  width: 100%;
+  background-color: hsl(257deg, 27%, 26%);
+  border-radius: 10px;
+}
+@media (max-width: 767px) {
+  .shorter-link .content img {
+    height: 150px;
+  }
+}
+.shorter-link .form-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.shorter-link .form-link form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 50px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .shorter-link .form-link form {
+    padding: 0 25px;
+  }
+}
+@media (max-width: 767px) {
+  .shorter-link .form-link form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0 25px;
+  }
+}
+.shorter-link .form-link form input {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  height: 60px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .shorter-link .form-link form input {
+    -ms-flex-preferred-size: 75%;
+        flex-basis: 75%;
+  }
+}
+@media (max-width: 767px) {
+  .shorter-link .form-link form input {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+.shorter-link .form-link form button {
+  border-radius: 10px !important;
+  -ms-flex-preferred-size: 18%;
+      flex-basis: 18%;
+  height: 60px;
+}
+.shorter-link .form-link form button:hover {
+  background-color: hsl(180deg, 50%, 73%) !important;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .shorter-link .form-link form button {
+    -ms-flex-preferred-size: 22%;
+        flex-basis: 22%;
+  }
+}
+@media (max-width: 767px) {
+  .shorter-link .form-link form button {
+    width: 100%;
+    padding: 10px 20px;
+  }
+}
+.shorter-link .result {
+  background-color: hsl(220deg, 23%, 95%);
+  position: relative;
+  z-index: -10;
+}
+.shorter-link .result > .container {
+  position: relative;
+  top: 85px;
+}
+
+.statistic {
+  background-color: hsl(220deg, 23%, 95%);
+  padding-bottom: 100px;
+  padding-top: 50px;
+  z-index: -20;
+  position: relative;
+}
+.statistic .info {
+  margin-bottom: 80px;
+}
+.statistic .info h2 {
+  color: hsl(257deg, 27%, 26%);
+}
+.statistic .info p {
+  color: hsl(257deg, 7%, 63%) !important;
+  width: 50%;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  .statistic .info p {
+    width: 100%;
+  }
+}
+.statistic .static {
+  position: relative;
+}
+.statistic .static hr {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-top: 10px solid;
+  border-color: hsl(180deg, 63%, 50%);
+  opacity: 1;
+}
+.statistic .static .card {
+  position: relative;
+  padding-bottom: 20px;
+}
+.statistic .static .card .icon {
+  background-color: hsl(257deg, 27%, 26%);
+  position: absolute;
+  top: -40px;
+  left: 40px;
+  border-radius: 50%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  overflow: hidden;
+  padding: 10px;
+}
+.statistic .static .card img {
+  margin: 10px;
+}
+.statistic .static .card .card-body {
+  margin-top: 60px;
+}
+.statistic .static .card .card-body .card-title {
+  font-weight: bold;
+  color: hsl(257deg, 27%, 26%);
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.statistic .static .card .card-body .card-text {
+  color: hsl(257deg, 7%, 63%) !important;
+}
+.statistic .static > div:nth-child(3) {
+  top: 40px;
+  position: relative;
+}
+.statistic .static > div:nth-child(4) {
+  top: 80px;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .statistic .static {
+    text-align: center;
+  }
+  .statistic .static .card .icon {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .statistic .static > div:nth-child(2) {
+    margin-bottom: 50px;
+  }
+  .statistic .static > div {
+    margin-bottom: 30px;
+  }
+  .statistic .static hr {
+    -webkit-transform: translateX(-50%) rotate(90deg);
+            transform: translateX(-50%) rotate(90deg);
+    width: 100%;
+  }
+}
+
+.boost {
+  background-image: url(../images/bg-boost-desktop.svg);
+  background-position: center;
+  background-size: cover;
+  background-color: hsl(257deg, 27%, 26%);
+}
+@media (max-width: 767px) {
+  .boost {
+    background-image: url(../images/bg-boost-mobile.svg);
+  }
+}
+.boost .info h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: white;
+  padding-top: 10px;
+}
+.boost .info button {
+  border: none;
+}
+.boost .info button:hover {
+  background-color: hsl(180deg, 50%, 73%) !important;
+}
+
+footer {
+  background-color: hsl(263deg, 11%, 14%);
+  color: white;
+}
+footer h3 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer ul a {
+  text-decoration: none;
+}
+footer .box h4 {
+  font-size: 15px;
+}
+footer .box ul a {
+  color: hsl(257deg, 7%, 63%) !important;
+  font-size: 12px;
+}
+footer .box ul a:hover {
+  color: hsl(180deg, 63%, 50%) !important;
+}
+footer .links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .links ul li {
+  margin-right: 10px;
+}
+footer .links ul li:last-child {
+  margin-right: 0px;
+}
+footer .links ul li a {
+  color: white;
+}
+footer .links ul li a:hover {
+  color: hsl(180deg, 63%, 50%) !important;
+}
+@media (max-width: 575px) {
+  footer {
+    text-align: center;
+  }
+}
+footer .attribution {
+  padding-bottom: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  text-decoration: none;
+  background-color: white;
+  padding: 0 2px;
+  border-radius: 5px;
+  color: hsl(228deg, 45%, 44%);
+}

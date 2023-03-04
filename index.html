@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Boostrap 5  -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <!-- Main file -->
+    <link rel="stylesheet" href="sass/main.css" />
+    <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    
+  </head>
+  <body>
+    <!-- Features Pricing Resources Login Sign -->
+    <nav class="container">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-1 nav-color" href="#">Shortly</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse bg-color"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-4 change-color">
+              <li class="nav-item ms-3">
+                <a class="nav-link" aria-current="page" href="#">Features</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+            </ul>
+            <div class="d-grid gap-2 d-md-block reduies">
+              <button class="btn btn-light me-2" type="button">Login</button>
+              <button class="btn btn-light" type="button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </nav>
+
+    <header class="container">
+      <div class="row">
+        <div class="col-7 mt-5 pt-5 mb-5 pb-5">
+          <h1 class="fw-bold">More than just shorter links</h1>
+          <p>
+            Build your brand’s recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <button class="btn btn-light" type="button">Get Started</button>
+        </div>
+        <div class="col-5 position-relative">
+          <img
+            class="img-fluid"
+            src="images/illustration-working.svg"
+            alt="desktop img"
+          />
+        </div>
+      </div>
+    </header>
+
+    <div class="shorter-link">
+      <div class="container">
+        <div class="content position-relative">
+          <img src="images/bg-shorten-desktop.svg" alt="p" />
+          <div class="form-link">
+            <form id="form" action="" method="post">
+              <input
+                type="text"
+                name="link"
+                id="link"
+                placeholder="Get Started Shorten a link here..."
+              />
+              <button class="btn" type="submit">Shorten It!</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="result">
+        <div class="container">
+          <div class="link">the link</div>
+          <div class="link">the link</div>
+          <div class="link">the link</div>
+          <div class="link">the link</div>
+          <div class="link">the link</div>
+          <div class="link">the link</div>
+          <div class="link">the link</div>
+          <div class="link">the link</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="statistic">
+      <div class="container pb-5 pt-5">
+        <div class="info pb-5 pt-5 text-center">
+          <h2 class="fw-bold">Advanced Statistics</h2>
+          <p>
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+        </div>
+        <div class="static row">
+          <hr class="col-10">
+          <div class="col-md-4">
+            <div class="card" >
+              <div class="icon">
+
+                <img src="images/icon-brand-recognition.svg" alt="img" />
+              </div>
+            <div class="card-body">
+            <h5 class="card-title">Brand Recognition</h5>
+            <p class="card-text">Boost your brand recognition with each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your
+              content.
+            </p>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" >
+              <div class="icon">
+                
+                <img src="images/icon-detailed-records.svg" alt="img" />
+              </div>
+            <div class="card-body">
+            <h5 class="card-title">Detailed Records</h5>
+            <p class="card-text">
+              Gain insights into who is clicking your links. Knowing when and
+              where people engage with your content helps inform better
+              decisions.
+            </p>
+          </div>
+          </div>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="card" >
+              <div class="icon">
+                <img src="images/icon-fully-customizable.svg" alt="img" />
+                
+              </div>
+            <div class="card-body">
+            <h5 class="card-title">Fully Customizable</h5>
+            <p class="card-text">
+              Improve brand awareness and content discoverability through
+              customizable links, supercharging audience engagement.
+            </p>
+          </div>
+          </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="boost position-relative">
+<div class="container">
+
+  <div class="info text-center pt-5 pb-5 ">
+    <h3>Boost your links today</h3>
+    <button class="btn btn-light" type="button">Get Started</button>
+  </div>
+</div>
+    </div>
+
+    <footer>
+      <div class="container pt-5 pb-5">
+        <div class="row">
+
+          <div class="col-sm-4"><h3>Shortly</h3></div>
+          <div class="col-sm-2 box"><h4>Features</h4><ul>
+            <li><a href="#">Link Shortening</a></li>
+            <li><a href="#">Branded Links</a></li>
+            <li><a href="#">Analytics</a></li>
+          </ul></div>
+          <div class="col-sm-2 box"><h4>Resources</h4><ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Support</a></li>
+          </ul></div>
+          <div class="col-sm-2 box"><h4>Company</h4><ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul></div>
+          <div class="col-sm-2 links"><ul>
+            <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          </ul></div>
+        </div>
+      </div><div class="attribution">
+      Coded by <a href="#">Musab Apoisha</a>
+    </div>
+      </footer>
+    <script src="JS/all.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
