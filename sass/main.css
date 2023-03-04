@@ -202,6 +202,10 @@ header .row > div:last-child img {
   }
 }
 
+.shorter-link > .container {
+  z-index: 2;
+  position: relative;
+}
 .shorter-link .content img {
   width: 100%;
   background-color: hsl(257deg, 27%, 26%);
@@ -300,19 +304,44 @@ header .row > div:last-child img {
 .shorter-link .result {
   background-color: hsl(220deg, 23%, 95%);
   position: relative;
-  z-index: -10;
 }
 .shorter-link .result > .container {
   position: relative;
   top: 85px;
+}
+.shorter-link .result .short-link {
+  background-color: white;
+  margin: 0 0.1rem;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.shorter-link .result .short-link p {
+  margin: 0;
+}
+.shorter-link .result .short-link .short {
+  text-align: end;
+  color: hsl(180deg, 63%, 50%);
+}
+.shorter-link .result .short-link .copy {
+  text-align: center;
+  cursor: pointer;
+  color: white;
+  background-color: hsl(180deg, 63%, 50%);
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .statistic {
   background-color: hsl(220deg, 23%, 95%);
   padding-bottom: 100px;
   padding-top: 50px;
-  z-index: -20;
-  position: relative;
 }
 .statistic .info {
   margin-bottom: 80px;

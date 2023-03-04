@@ -249,6 +249,10 @@ header {
 //==========>  start Shorter link
 
 .shorter-link {
+  & > .container {
+    z-index: 2;
+    position: relative;
+  }
   .content {
     img {
       width: 100%;
@@ -317,10 +321,34 @@ header {
   .result {
     background-color: hsl(220, 23%, 95%);
     position: relative;
-    z-index: -10;
+
     & > .container {
       position: relative;
       top: 85px;
+    }
+    .short-link {
+      background-color: white;
+      margin: 0 0.1rem;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      justify-content: center;
+      align-items: center;
+      p {
+        margin: 0;
+      }
+      .short {
+        text-align: end;
+        color: $main_color;
+      }
+      .copy {
+        text-align: center;
+        cursor: pointer;
+        color: white;
+        background-color: $main_color;
+        padding: 5px;
+        border-radius: 5px;
+      }
     }
   }
 }
@@ -332,8 +360,6 @@ header {
   background-color: hsl(220deg, 23%, 95%);
   padding-bottom: 100px;
   padding-top: 50px;
-  z-index: -20;
-  position: relative;
   .info {
     margin-bottom: 80px;
     h2 {
