@@ -50,6 +50,9 @@ form.addEventListener("submit", function (e) {
       console.log(data.result);
       short.innerHTML = data.result.full_short_link;
       p.innerHTML = data.result.original_link;
+      copy.addEventListener("click", () =>
+        navigator.clipboard.writeText(short.innerHTML)
+      );
     })
     .catch((err) => {
       if (err == "") {
