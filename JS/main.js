@@ -1,3 +1,4 @@
+"use strict";
 let shorten_link = document.querySelector(".shorter-link  .container img");
 let result = document.querySelector(".shorter-link .result");
 
