@@ -1,4 +1,3 @@
-"use strict";
 let shorten_link = document.querySelector(".shorter-link  .container img");
 let result = document.querySelector(".shorter-link .result");
 
@@ -10,7 +9,6 @@ result.style.marginBottom = "-" + half_shorten + "px";
 var input = document.querySelector("#link");
 var button = document.querySelector(".shorter-link " + '[type = "submit"]');
 var form = document.getElementById("form");
-console.log(result.children[0]);
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();
@@ -22,6 +20,14 @@ form.addEventListener("submit", function (e) {
   var p = document.createElement("p");
   var short = document.createElement("span");
   var copy = document.createElement("span");
+
+  var m = Object.values(result.children[0].children);
+
+  if (m.length == 1) {
+    m.forEach((element) => {
+      element.remove();
+    });
+  }
 
   p.classList.add("col-7");
   short.classList.add("col-4", "short");
