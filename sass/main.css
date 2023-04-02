@@ -202,6 +202,10 @@ header .row > div:last-child img {
   }
 }
 
+.change-status {
+  background-color: hsl(257deg, 27%, 26%) !important;
+}
+
 .shorter-link > .container {
   z-index: 2;
   position: relative;
