@@ -57,9 +57,11 @@ form.addEventListener("submit", function (e) {
       console.log(data.result);
       short.innerHTML = data.result.full_short_link;
       p.innerHTML = data.result.original_link;
-      copy.addEventListener("click", () =>
-        navigator.clipboard.writeText(short.innerHTML)
-      );
+        copy.addEventListener("click", function () {
+            navigator.clipboard.writeText(short.innerHTML);
+            copy.classList.add("change-status");
+            copy.innerHTML = "copied!";
+        });
     })
     .catch((err) => {
       if (err == "") {
